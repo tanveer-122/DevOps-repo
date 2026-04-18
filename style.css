@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* List */
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  background: #0d6efd;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #084298;
+}
+
+/* Response message */
+#responseMsg {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 22px;
+  }
+}
