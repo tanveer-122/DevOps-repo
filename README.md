@@ -222,8 +222,8 @@ cd /usr/share/nginx/html
 
 # 👨‍💻 Author
 
-Azharuddin Alam
-GitHub:https://github.com/analystazhar/ 
+Mohammad Tanveer
+GitHub:https://github.com/tanveer-122/ 
 
 ---
 
